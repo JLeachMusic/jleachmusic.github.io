@@ -101,328 +101,329 @@ hue-6-2: #c18401
 
 .hljs-link {
   text-decoration: underline;
-}</style>
-						<title></title>
-					</head>
-					<body>
-						<div class="exported-note"><style>
+}
 		/* https://necolas.github.io/normalize.css/ */
-		html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
-		article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}
-		pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}
-		b,strong{font-weight:bolder}small{font-size:80%}img{border-style:none}
+html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
+body{margin:0}
+article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}
+hr{box-sizing:content-box;height:0;overflow:visible}
+pre{font-family:monospace,monospace;font-size:1em}
+a{background-color:transparent;-webkit-text-decoration-skip:objects}
+b,strong{font-weight:bolder}
+small{font-size:80%}
+img{border-style:none}
 
-		body {
-			font-size: 15px;
-			color: #32373F;
-			word-wrap: break-word;
-			line-height: 1.6em;
-			background-color: #ffffff;
-			font-family: 'Avenir Next', 'Avenir', 'Arial', sans-serif;
-			padding-bottom: 0px;
-			padding-top: 0px;
-		}
-		kbd {
-			border: 1px solid rgb(220, 220, 220);
-			box-shadow: inset 0 -1px 0 rgb(220, 220, 220);
-			padding: 2px 4px;
-			border-radius: 3px;
-			background-color: rgb(243, 243, 243);
-		}
+body {
+	font-size: 15px;
+	color: #32373F;
+	word-wrap: break-word;
+	line-height: 1.6em;
+	background-color: #ffffff;
+	font-family: 'Avenir Next', 'Avenir', 'Arial', sans-serif;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+kbd {
+	border: 1px solid rgb(220, 220, 220);
+	box-shadow: inset 0 -1px 0 rgb(220, 220, 220);
+	padding: 2px 4px;
+	border-radius: 3px;
+	background-color: rgb(243, 243, 243);
+}
 
-		:root {
-			--scrollbar-size: 7px;
-		}
+:root {
+	--scrollbar-size: 7px;
+}
 
-		::-webkit-scrollbar {
-			width: var(--scrollbar-size);
-			height: var(--scrollbar-size);
-		}
-		::-webkit-scrollbar-thumb {
-			border-radius: calc(var(--scrollbar-size) / 2);
-		}
-		::-webkit-scrollbar-corner {
-			background: none;
-		}
-		::-webkit-scrollbar-track {
-			border: none;
-		}
-		::-webkit-scrollbar-thumb {
-			background: rgba(50, 55, 63, 0.54);
-		}
-		::-webkit-scrollbar-track:hover {
-			background: rgba(0, 0, 0, 0.1);
-		}
-		::-webkit-scrollbar-thumb:hover {
-			background: rgba(50, 55, 63, 0.63);
-		}
-
-
-
-		/* Remove top padding and margin from first child so that top of rendered text is aligned to top of text editor text */
-
-		#rendered-md > h1:first-child,
-		#rendered-md > h2:first-child,
-		#rendered-md > h3:first-child,
-		#rendered-md > h4:first-child,
-		#rendered-md > ul:first-child,
-		#rendered-md > ol:first-child,
-		#rendered-md > table:first-child,
-		#rendered-md > blockquote:first-child,
-		#rendered-md > img:first-child,
-		#rendered-md > p:first-child {
-			margin-top: 0;
-			padding-top: 0;
-		}
-
-		p, h1, h2, h3, h4, h5, h6, ul, table {
-			margin-top: .6em;
-			margin-bottom: 1.35em;
-
-			/*
-				Adds support for RTL text in the note body. It automatically detects the direction using the content.
-				Issue: https://github.com/laurent22/joplin/issues/3991
-			*/
-			unicode-bidi: plaintext;
-		}
-
-		h1, h2, h3, h4, h5, h6, ul, table {
-			margin-bottom: 0.65em;
-		}
-
-		h1, h2, h3, h4, h5, h6 {
-			line-height: 1.5em;
-		}
-		h1 {
-			font-size: 1.5em;
-			font-weight: bold;
-			border-bottom: 1px solid #dddddd;
-			padding-bottom: .3em;
-		}
-		h2 {
-			font-size: 1.3em;
-			font-weight: bold;
-			padding-bottom: .1em; */
-		}
-		h3 {
-			font-size: 1.1em;
-			font-weight: bold;
-		}
-		h4, h5, h6 {
-			font-size: 1em;
-			font-weight: bold;
-		}
-
-		.exported-note-title {
-			font-size: 2em;
-			font-weight: bold;
-			margin-bottom: 0.8em;
-			line-height: 1.5em;
-			padding-bottom: .35em;
-			border-bottom: 1px solid #dddddd;
-		}
-
-		a {
-			color: #155BDA;
-		}
-		ul, ol {
-			padding-left: 0;
-			margin-left: 1.7em;
-		}
-		li {
-			margin-bottom: .4em;
-		}
-		li p {
-			margin-top: 0.2em;
-			margin-bottom: 0;
-		}
-
-		dt {
-			font-weight: bold;
-			margin-bottom: 0.25em;
-		}
-
-		dd {
-			margin-inline-start: 2.5em;
-			margin-bottom: 0.5em;
-		}
-
-		.resource-icon {
-			display: inline-block;
-			position: relative;
-			top: 0.3em;
-			text-decoration: none;
-			width: 1.2em;
-			height: 1.4em;
-			margin-right: 0.4em;
-			background-color:  #155BDA;
-		}
-		blockquote {
-			border-left: 4px solid rgb(220, 220, 220);
-			padding-left: 1.2em;
-			margin-left: 0;
-			opacity: 0.7;
-		}
-
-		hr {
-			border: none;
-			border-bottom: 2px solid #dddddd;
-		}
-		img {
-			max-width: 100%;
-			height: auto;
-		}
-
-		.inline-code,
-		.mce-content-body code {
-			border: 1px solid rgb(220, 220, 220);
-			background-color: rgb(243, 243, 243);
-			padding-right: .2em;
-			padding-left: .2em;
-			border-radius: .25em;
-			color: rgb(0,0,0);
-			font-size: .9em;
-		}
-
-		.highlighted-keyword {
-			background-color: #F3B717;
-			color: black;
-		}
+::-webkit-scrollbar {
+	width: var(--scrollbar-size);
+	height: var(--scrollbar-size);
+}
+::-webkit-scrollbar-thumb {
+	border-radius: calc(var(--scrollbar-size) / 2);
+}
+::-webkit-scrollbar-corner {
+	background: none;
+}
+::-webkit-scrollbar-track {
+	border: none;
+}
+::-webkit-scrollbar-thumb {
+	background: rgba(50, 55, 63, 0.54);
+}
+::-webkit-scrollbar-track:hover {
+	background: rgba(0, 0, 0, 0.1);
+}
+::-webkit-scrollbar-thumb:hover {
+	background: rgba(50, 55, 63, 0.63);
+}
 
 
-	.not-loaded-resource img {
-		width: 1.15em;
-		height: 1.15em;
-		background: white;
-		padding: 2px !important;
-		border-radius: 2px;
-		box-shadow: 0 1px 3px #000000aa;
-	}
 
-	a.not-loaded-resource img {
-		margin-right: .2em;
-	}
+/* Remove top padding and margin from first child so that top of rendered text is aligned to top of text editor text */
 
-	a.not-loaded-resource {
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-	}
+#rendered-md > h1:first-child,
+#rendered-md > h2:first-child,
+#rendered-md > h3:first-child,
+#rendered-md > h4:first-child,
+#rendered-md > ul:first-child,
+#rendered-md > ol:first-child,
+#rendered-md > table:first-child,
+#rendered-md > blockquote:first-child,
+#rendered-md > img:first-child,
+#rendered-md > p:first-child {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+p, h1, h2, h3, h4, h5, h6, ul, table {
+	margin-top: .6em;
+	margin-bottom: 1.35em;
+
+	/*
+		Adds support for RTL text in the note body. It automatically detects the direction using the content.
+		Issue: https://github.com/laurent22/joplin/issues/3991
+	*/
+	unicode-bidi: plaintext;
+}
+
+h1, h2, h3, h4, h5, h6, ul, table {
+	margin-bottom: 0.65em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1.5em;
+}
+h1 {
+	font-size: 1.5em;
+	font-weight: bold;
+	border-bottom: 1px solid #dddddd;
+	padding-bottom: .3em;
+}
+h2 {
+	font-size: 1.3em;
+	font-weight: bold;
+	padding-bottom: .1em; */
+}
+h3 {
+	font-size: 1.1em;
+	font-weight: bold;
+}
+h4, h5, h6 {
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.exported-note-title {
+	font-size: 2em;
+	font-weight: bold;
+	margin-bottom: 0.8em;
+	line-height: 1.5em;
+	padding-bottom: .35em;
+	border-bottom: 1px solid #dddddd;
+}
+
+a {
+	color: #155BDA;
+}
+ul, ol {
+	padding-left: 0;
+	margin-left: 1.7em;
+}
+li {
+	margin-bottom: .4em;
+}
+li p {
+	margin-top: 0.2em;
+	margin-bottom: 0;
+}
+
+dt {
+	font-weight: bold;
+	margin-bottom: 0.25em;
+}
+
+dd {
+	margin-inline-start: 2.5em;
+	margin-bottom: 0.5em;
+}
+
+.resource-icon {
+	display: inline-block;
+	position: relative;
+	top: 0.3em;
+	text-decoration: none;
+	width: 1.2em;
+	height: 1.4em;
+	margin-right: 0.4em;
+	background-color:  #155BDA;
+}
+blockquote {
+	border-left: 4px solid rgb(220, 220, 220);
+	padding-left: 1.2em;
+	margin-left: 0;
+	opacity: 0.7;
+}
+
+hr {
+	border: none;
+	border-bottom: 2px solid #dddddd;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.inline-code,
+.mce-content-body code {
+	border: 1px solid rgb(220, 220, 220);
+	background-color: rgb(243, 243, 243);
+	padding-right: .2em;
+	padding-left: .2em;
+	border-radius: .25em;
+	color: rgb(0,0,0);
+	font-size: .9em;
+}
+
+.highlighted-keyword {
+	background-color: #F3B717;
+	color: black;
+}
 
 
-		.md-checkbox input[type=checkbox]:checked {
-			opacity: 0.7;
-		}
+.not-loaded-resource img {
+width: 1.15em;
+height: 1.15em;
+background: white;
+padding: 2px !important;
+border-radius: 2px;
+box-shadow: 0 1px 3px #000000aa;
+}
 
-		.jop-tinymce ul.joplin-checklist .checked,
-		.md-checkbox .checkbox-label-checked {
-			opacity: 0.5;
-		}
+a.not-loaded-resource img {
+margin-right: .2em;
+}
 
-		.exported-note {
-			padding: 1em;
-		}
+a.not-loaded-resource {
+display: flex;
+flex-direction: row;
+align-items: center;
+}
 
-		.joplin-editable .joplin-source {
-			display: none;
-		}
 
-		mark {
-			background: #F7D26E;
-			color: black;
-		}
+.md-checkbox input[type=checkbox]:checked {
+	opacity: 0.7;
+}
+
+.jop-tinymce ul.joplin-checklist .checked,
+.md-checkbox .checkbox-label-checked {
+	opacity: 0.5;
+}
+
+.exported-note {
+	padding: 1em;
+}
+
+.joplin-editable .joplin-source {
+	display: none;
+}
+
+mark {
+	background: #F7D26E;
+	color: black;
+}
+
+/* =============================================== */
+/* For TinyMCE */
+/* =============================================== */
+
+.mce-content-body {
+	/* Note: we give a bit more padding at the bottom, to allow scrolling past the end of the document */
+	padding: 5px 10px 10em 0;
+}
+
+/*
+.mce-content-body code {
+	background-color: transparent;
+}
+*/
+
+.mce-content-body [data-mce-selected=inline-boundary] {
+	background-color: transparent;
+}
+
+.mce-content-body .joplin-editable {
+	cursor: pointer !important;
+}
+
+.mce-content-body.mce-content-readonly {
+	opacity: 0.5;
+}
+
+/* We need that to make sure click events have the A has a target */
+.katex a span {
+	pointer-events: none;
+}
+
+.media-player {
+	width: 100%;
+	margin-top: 10px;
+}
+
+.media-player.media-pdf {
+	min-height: 35rem;
+	width: 100%;
+	max-width: 1000px;
+	margin: 0;
+	border: 0;
+	display: block;
+}
+
+/* Clear the CODE style if the element is within a joplin-editable block */
+.mce-content-body .joplin-editable code {
+	border: none;
+	background: none;
+	padding: 0;
+	color: inherit;
+	font-size: inherit;
+}
+
+/* To make code blocks horizontally scrollable */
+/* https://github.com/laurent22/joplin/issues/5740 */
+pre.hljs {
+	overflow-x: auto;
+}
+
+.joplin-table-wrapper{
+	overflow-x: auto;
+	overflow-y: hidden;
+}
 
 		/* =============================================== */
 		/* For TinyMCE */
 		/* =============================================== */
 
-		.mce-content-body {
-			/* Note: we give a bit more padding at the bottom, to allow scrolling past the end of the document */
-			padding: 5px 10px 10em 0;
-		}
+@media print {
+	body {
+		height: auto !important;
+	}
 
-		/*
-		.mce-content-body code {
-			background-color: transparent;
-		}
-		*/
+	pre {
+		white-space: pre-wrap;
+	}
 
-		.mce-content-body [data-mce-selected=inline-boundary] {
-			background-color: transparent;
-		}
+	.code, .inline-code {
+		border: 1px solid #CBCBCB;
+	}
 
-		.mce-content-body .joplin-editable {
-			cursor: pointer !important;
-		}
-
-		.mce-content-body.mce-content-readonly {
-			opacity: 0.5;
-		}
-
-		/* We need that to make sure click events have the A has a target */
-		.katex a span {
-			pointer-events: none;
-		}
-
-		.media-player {
-			width: 100%;
-			margin-top: 10px;
-		}
-
-		.media-player.media-pdf {
-			min-height: 35rem;
-			width: 100%;
-			max-width: 1000px;
-			margin: 0;
-			border: 0;
-			display: block;
-		}
-
-		/* Clear the CODE style if the element is within a joplin-editable block */
-		.mce-content-body .joplin-editable code {
-			border: none;
-			background: none;
-			padding: 0;
-			color: inherit;
-			font-size: inherit;
-		}
-
-		/* To make code blocks horizontally scrollable */
-		/* https://github.com/laurent22/joplin/issues/5740 */
-		pre.hljs {
-			overflow-x: auto;
-		}
-
-		.joplin-table-wrapper{
-			overflow-x: auto;
-			overflow-y: hidden;
-		}
-
-		/* =============================================== */
-		/* For TinyMCE */
-		/* =============================================== */
-
-		@media print {
-			body {
-				height: auto !important;
-			}
-
-			pre {
-				white-space: pre-wrap;
-			}
-
-			.code, .inline-code {
-				border: 1px solid #CBCBCB;
-			}
-
-			#joplin-container-content {
-				/* The height of the content is set dynamically by JavaScript (in updateBodyHeight) to go
-				   around various issues related to scrolling. However when printing we don't want this
-				   fixed size as that would crop the content. So we set it to auto here. "important" is
-				   needed to override the style set by JavaScript at the element-level. */
-				height: auto !important;
-			}
-		}
+	#joplin-container-content {
+		/* The height of the content is set dynamically by JavaScript (in updateBodyHeight) to go
+		   around various issues related to scrolling. However when printing we don't want this
+		   fixed size as that would crop the content. So we set it to auto here. "important" is
+		   needed to override the style set by JavaScript at the element-level. */
+		height: auto !important;
+	}
+}
 
 
 				/*
@@ -433,56 +434,98 @@ hue-6-2: #c18401
 				   (otherwise they are too far right), but keep it for their children to allow
 				   nested lists. Make sure this value matches the UL margin. */
 
-				li.md-checkbox {
-					list-style-type: none;
-				}
+li.md-checkbox {
+	list-style-type: none;
+}
 
-				li.md-checkbox input[type=checkbox] {
-					margin-left: -1.71em;
-					margin-right: 0.7em;
-					position: relative;
-					top: 1px;
-				}
+li.md-checkbox input[type=checkbox] {
+	margin-left: -1.71em;
+	margin-right: 0.7em;
+	position: relative;
+	top: 1px;
+}
 
-				ul.joplin-checklist {
-					list-style:none;
-				}
+ul.joplin-checklist {
+	list-style:none;
+}
 
-				/*
-					FOR THE RICH TEXT EDITOR
-				*/
+/*
+	FOR THE RICH TEXT EDITOR
+*/
 
-				ul.joplin-checklist li::before {
-					content:"\f14a";
-					font-family:"Font Awesome 5 Free";
-					background-size: 16px 16px;
-					pointer-events: all;
-					cursor: pointer;
-					width: 1em;
-					height: 1em;
-					margin-left: -1.3em;
-					position: absolute;
-					color: #32373F;
-				}
+ul.joplin-checklist li::before {
+	content:"\f14a";
+	font-family:"Font Awesome 5 Free";
+	background-size: 16px 16px;
+	pointer-events: all;
+	cursor: pointer;
+	width: 1em;
+	height: 1em;
+	margin-left: -1.3em;
+	position: absolute;
+	color: #32373F;
+}
 
-				.joplin-checklist li:not(.checked)::before {
-					content:"\f0c8";
-				}
+.joplin-checklist li:not(.checked)::before {
+	content:"\f0c8";
+}
 
-				.abc-notation-block svg {
-					background-color: white;
-				}
-				.joplin-abc-notation-rendered {
-					overflow-x: auto !important;
-					overflow-y: hidden;
-				}
-				@media print {
-					.joplin-abc-notation-rendered {
-						overflow: visible !important;
-					}
+.abc-notation-block svg {
+	background-color: white;
+}
+.joplin-abc-notation-rendered {
+	overflow-x: auto !important;
+	overflow-y: hidden;
+}
+@media print {
+	.joplin-abc-notation-rendered {
+		overflow: visible !important;
+	}
 
-					.joplin-abc-notation-rendered svg {
-						max-width: 100% !important;
-						height: auto !important;
-					}
-				}
+	.joplin-abc-notation-rendered svg {
+		max-width: 100% !important;
+		height: auto !important;
+	}
+}
+/* Table formatting */
+
+table {
+    text-align: left;
+    border-collapse: collapse;
+    border: 1px solid rgb(220, 220, 220);
+    background-color: #ffffff;
+    width: 100%;
+}
+
+table td,
+table th {
+    text-align: left;
+    padding: 0.5em 1em;
+    font-size: 15px;
+    color: #32373F;
+    font-family: 'Avenir Next', 'Avenir', 'Arial', sans-serif;
+}
+
+table td {
+    border: 1px solid rgb(220, 220, 220);
+}
+
+table th {
+    border: 1px solid rgb(220, 220, 220);
+    border-bottom: 2px solid rgb(220, 220, 220);
+    background-color: rgb(247, 247, 247);
+}
+
+table tr:nth-child(even) {
+    background-color: rgb(247, 247, 247);
+}
+
+table tr:hover {
+    background-color: #e5e5e5;
+}
+
+/* Allow wide tables to scroll horizontally */
+.joplin-table-wrapper {
+    overflow-x: auto;
+    overflow-y: hidden;
+}
